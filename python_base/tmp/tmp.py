@@ -1,3 +1,6 @@
+import math
+
+
 class Tmp:
 
     def __init__(self):
@@ -30,7 +33,8 @@ class Tmp:
 
 if __name__ == '__main__':
     t = Tmp()
-    a = lambda x: x + 1
-    b = lambda x, y: x + y
-    print(a(10))
-    print(b(1, 2))
+
+    for i in range(20):
+        print(math.pow(2, i))
+
+    print(math.pow(2, 15))
